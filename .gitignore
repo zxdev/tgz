@@ -1,0 +1,9 @@
+
+# remove from everywhere
+# find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+**/.DS_Store
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+_dev/
+**/testdata/
